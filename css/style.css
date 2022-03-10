@@ -69,6 +69,7 @@ nav{
     max-width: 500px;
     display: inline-block;
     margin-bottom: 100px;
+    
 }
 .banner-text{
     font-size: 18px;
@@ -131,4 +132,12 @@ nav{
         transition: 1s;
     }
 
+}
+@media(max-width: 550px){
+    .container{
+        padding: 0;
+    }
+    .banner{
+        zoom: 0.8;
+    }
 }
