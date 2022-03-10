@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,500;1,400&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,700;1,100;1,300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,400&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/gif/png" href="image/logo.png">
+    <title>Design</title>
+</head>
+<body style="overflow-x:hidden;" id = "body">
+    <!------- HEADER -------->
+    <Section class="Header">
+        <div class="container">
+            <nav>
+                <a href="#" class="logo"><img src="image/logo.png" alt=""></a>
+                <div class = "nav">
+                    <span class="nav-menu">
+                        <img src="image/menu.png" alt="" onclick="showMenu()">
+                    </span>
+                <ul class = "nav-items" id = "navLinks">
+                    <li class="nav-close nav-item">
+                        <img src="image/close.png" alt="" onclick="hideMenu()">
+                    </li>
+                    <li class = "nav-item">
+                        <a href="">Home</a>
+                    </li>
+                    <li class = "nav-item">
+                        <a href="">About</a>
+                    </li>
+                    <li class = "nav-item">
+                        <a href="">Work</a>
+                    </li>
+                    <li class = "nav-item">
+                        <a href="">Procces</a>
+                    </li>
+                    <li class = "nav-item">
+                        <a href="">Services</a>
+                    </li>
+                    <li class = "nav-item">
+                        <a href="">Testimonials</a>
+                    </li>
+                    <li class = "nav-item">
+                        <a href="">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            </nav>
+            <div class="banner">
+                <img src="image/banner.png" alt="photo" class = "banner-img">
+                <span class="banner-text">
+                    <h1>We Design and Develop</h1>
+                    <p class="banner-about">
+                    We are a new design studio based in USA. We have over <br> 
+                    20 years of combined experience, and know a thing or two <br>
+                    about designing websites and mobile apps. <br>
+                    </p> 
+                    <a href="#" class="banner-button"> Contact Us</a>
+                </span>
+                
+            </div>
+        </div>
+
+    </Section>
+    <script>
+        let navLinks = document.getElementById("navLinks");
+        let body = document.getElementById("body");
+        function showMenu(){
+            navLinks.style.right = 0;
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
