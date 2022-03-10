@@ -56,7 +56,7 @@ nav{
 }
 .nav-close img{
     width: 20px;
-    
+    display: none;
 }
 .banner{
     display: flex;
@@ -113,6 +113,9 @@ nav{
         margin-top: 10px;
     }
     .nav-menu img{
+        display: inline-block;
+    }
+    .nav-close img{
         display: inline-block;
     }
     .nav-items{
