@@ -11,9 +11,9 @@
     <link rel="icon" type="image/gif/png" href="image/logo.png">
     <title>Design</title>
 </head>
-<body style="overflow-x:hidden;" id = "body">
+<body style="overflow-x:hidden " id = "body">
     <!------- HEADER -------->
-    <Section class="Header">
+    <Section class="header">
         <div class="container">
             <nav>
                 <a href="#" class="logo"><img src="image/logo.png" alt=""></a>
@@ -65,14 +65,28 @@
         </div>
 
     </Section>
+    <!-----ABOUT US----->
+    <Section class="about-us">
+        <div class="about-us-text">
+            <h1>About us</h1>
+            <p>Divide have don't man wherein air fourth. Own itself make have night won't make. <br>
+                A you under Seed appear which good give. Own give air without fowl moveth dry first <br>
+                heaven fruit, dominion she'd won't very all.
+            </p>
+            <img src="image/sign.png" alt="sign">
+        </div>
+    </Section>
     <script>
+
         let navLinks = document.getElementById("navLinks");
         let body = document.getElementById("body");
         function showMenu(){
             navLinks.style.right = 0;
+            body.style.overflowY = "hidden";
         }
         function hideMenu(){
             navLinks.style.right = "-200px";
+            body.style.overflowY = "visible";
         }
     </script>
 </body>
