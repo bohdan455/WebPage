@@ -121,6 +121,24 @@ nav{
     line-height: 30px;
     color: #a3a3a3;
 }
+.skills{
+    height: 800px;
+}
+.skills-content{
+    height: 100%;
+    width: 50%;
+    background-color: #f8f9f9;
+    display: inline-block;
+}
+.skills-image{
+    width: 50%;
+    height: 100%;
+    float: right;
+    background-image: url("../image/skills-image.jpg");
+    background-color: red;
+    background-size: cover;
+    display: inline-block;
+}
 @media(max-width: 1150px){
     .header{
         height: 100vh;
@@ -153,7 +171,12 @@ nav{
         flex: 0;
         transition: 1s;
     }
-
+    .skills-image{
+        display: none;
+    }
+    .skills-content{
+        width: 100%;
+    }
 }
 @media(max-width: 576px){
     .container{
