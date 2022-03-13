@@ -3,6 +3,9 @@
     margin: 0;
     text-decoration: none;
 }
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 progress::-moz-progress-bar { background: #10c9c3; } 
 progress::-webkit-progress-value { background: #10c9c3; }
 progress { color: #10c9c3; }
@@ -40,7 +43,7 @@ nav{
     position: relative;
     
     font-size: 12px;
-    font-family: 'Montserrat', sans-serif;
+    
     font-weight: 600;
 }
 .nav-items li a{
@@ -75,7 +78,7 @@ nav{
 .banner-text{
     font-size: 18px;
     color: #787878;
-    font-family: 'Montserrat', sans-serif;
+    
     display: inline-block;
     margin: auto 0;
     
@@ -112,7 +115,7 @@ nav{
 .about-us-text{
     margin-top: 100px;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    
     white-space: nowrap;
 }
 .about-us-text h1{
@@ -146,7 +149,7 @@ nav{
     margin: 170px auto 0;
     width: 70%;
     
-    font-family: 'Montserrat', sans-serif;
+    
 }
 .skills-progres-bars h2{
     font-size: 30px;
@@ -163,6 +166,48 @@ nav{
     height: 3px;
     
     border-radius: 0;
+}
+.numbers{
+    height: 300px;
+    background-color: #10c9c3;
+}
+.numbers-items{
+    
+    padding: 100px;
+}
+.numbers-items ul{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.numbers-items span{
+    font-size: 18px;
+}
+.work-process{
+    height: 950px;
+}
+.work-process-text{
+    margin: 100px 0 50px;
+    text-align: center;
+    
+}
+.work-process-text h2{
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+.work-process-text p{
+    font-size: 16px;
+}
+.work-process-video{
+    height: 600px;
+    width: 1300px;
+    background-color: gray;
+    margin-left: auto;
+    margin-right: auto;
 }
 @media(max-width: 1150px){
     .header{
@@ -205,6 +250,9 @@ nav{
     }
     .skills-content{
         width: 100%;
+    }
+    .work-process-video{
+        zoom: 0.5;
     }
 }
 @media(max-width: 576px){
