@@ -221,6 +221,24 @@ nav{
     margin-left: auto;
     margin-right: auto;
 }
+.slider{
+    height: 500px;
+    background-color: #10c9c3;
+    color: white;
+}
+.slider-text{
+   
+    font-size:24px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 40px;
+    padding-top: 200px;
+}
+
+.slider-author{
+    text-transform: uppercase;
+    font-size: 12px;
+}
 @media(max-width: 1150px){
     .header{
         height: 120vh;
