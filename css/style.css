@@ -239,6 +239,69 @@ nav{
     text-transform: uppercase;
     font-size: 12px;
 }
+.need-a-project{
+    background-color: #f5f5f5;
+    font-size: 0;
+}
+.need-a-project form{
+    justify-content: space-between;
+}
+.need-a-project input{
+    background-color: white;
+    height: 50px;
+    color:#787878;
+    border: none;
+    text-align: left;
+    margin-bottom: 30px;
+    padding-left: 2%;
+}
+.need-a-project-input-text{
+    width: 47%;
+    
+    
+}
+.need-a-project-input-title{
+    width: 98%;
+}
+.need-a-project textarea{
+    color:#787878;
+    resize: none;
+    height: 175px;
+    width: 98%;
+    margin-bottom: 30px;
+    border: none;
+    padding: 1%;
+}
+.need-a-project-button{
+    background-color: #10c9c3;
+    width: 180px;
+    height: 50px;
+    color: white;
+    margin: auto;
+    text-align: center;
+}
+
+.need-a-project-container{
+    
+    padding-top: 100px;
+    width: 50%;
+    margin: auto;
+}
+.need-a-project-text{
+    text-align: center;
+}
+.need-a-project-text h2{
+    font-size: 30px;
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+.need-a-project-text h5{
+    font-size: 16px;
+    color:#787878;
+    margin-bottom: 40px;
+}
+
+
 @media(max-width: 1150px){
     .header{
         height: 120vh;
